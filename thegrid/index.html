@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="jquery.nouislider.min.js"></script>
+
+<script src="color-thief.js"></script>
+
+<link href="jquery.nouislider.min.css" rel="stylesheet">
+
+<script>
+
+	var fonts = [];
+
+	fonts.push("Arial");
+	fonts.push("Sans serif");
+	fonts.push("Verdana");
+	fonts.push("Comic Sans MS");
+	fonts.push("Georgia");
+	fonts.push("Times New Roman");
+	fonts.push("Lucida Sans Unicode");
+	fonts.push("Tahoma");
+	fonts.push("Trebuchet MS");
+	fonts.push("Courier New");
+	fonts.push("Lucida Console");
+
+</script>
+
+</head>
+
+<body>
+
+<div class="slider">
+
+</div>
+
+<h3></h3>
+
+<img src="kynttila.jpg" alt="kynttilä" id="kynttila" height="400" width="300" />
+<img src="kahvi.jpg" alt="kahvi" id="kahvi" height="400" width="300" />
+<img src="kirkko.jpg" alt="kirkko" id="kirkko" height="400" width="300" />
+
+<div class="derp"><p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque, quam sollicitudin egestas accumsan, mi diam auctor sapien, eget dictum turpis augue quis nisi. Nam ut lacus mollis, gravida elit eget, pharetra lacus. Ut at tristique felis. Aenean vestibulum vel ex eu luctus. Nullam vel neque suscipit, hendrerit dolor ut, ullamcorper urna. Nam nec dui et augue finibus egestas non id nisi. Duis nec purus metus. Vivamus tempor diam enim, in dignissim dolor pretium viverra. Vivamus metus turpis, suscipit eget cursus tempor, euismod eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque posuere leo vitae nisl auctor vestibulum. Nullam id dui et urna ultricies accumsan. Vestibulum ut consectetur lacus, eu varius turpis. Vivamus vel ullamcorper metus.
+
+</p></div>
+
+<div class="derp"><p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque, quam sollicitudin egestas accumsan, mi diam auctor sapien, eget dictum turpis augue quis nisi. Nam ut lacus mollis, gravida elit eget, pharetra lacus. Ut at tristique felis. Aenean vestibulum vel ex eu luctus. Nullam vel neque suscipit, hendrerit dolor ut, ullamcorper urna. Nam nec dui et augue finibus egestas non id nisi. Duis nec purus metus. Vivamus tempor diam enim, in dignissim dolor pretium viverra. Vivamus metus turpis, suscipit eget cursus tempor, euismod eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque posuere leo vitae nisl auctor vestibulum. Nullam id dui et urna ultricies accumsan. Vestibulum ut consectetur lacus, eu varius turpis. Vivamus vel ullamcorper metus.
+
+</p></div>
+
+<div class="derp"><p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque, quam sollicitudin egestas accumsan, mi diam auctor sapien, eget dictum turpis augue quis nisi. Nam ut lacus mollis, gravida elit eget, pharetra lacus. Ut at tristique felis. Aenean vestibulum vel ex eu luctus. Nullam vel neque suscipit, hendrerit dolor ut, ullamcorper urna. Nam nec dui et augue finibus egestas non id nisi. Duis nec purus metus. Vivamus tempor diam enim, in dignissim dolor pretium viverra. Vivamus metus turpis, suscipit eget cursus tempor, euismod eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque posuere leo vitae nisl auctor vestibulum. Nullam id dui et urna ultricies accumsan. Vestibulum ut consectetur lacus, eu varius turpis. Vivamus vel ullamcorper metus.
+
+</p></div>
+
+<div class="derp"><p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque, quam sollicitudin egestas accumsan, mi diam auctor sapien, eget dictum turpis augue quis nisi. Nam ut lacus mollis, gravida elit eget, pharetra lacus. Ut at tristique felis. Aenean vestibulum vel ex eu luctus. Nullam vel neque suscipit, hendrerit dolor ut, ullamcorper urna. Nam nec dui et augue finibus egestas non id nisi. Duis nec purus metus. Vivamus tempor diam enim, in dignissim dolor pretium viverra. Vivamus metus turpis, suscipit eget cursus tempor, euismod eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque posuere leo vitae nisl auctor vestibulum. Nullam id dui et urna ultricies accumsan. Vestibulum ut consectetur lacus, eu varius turpis. Vivamus vel ullamcorper metus.
+
+</p></div>
+
+<div class="derp"><p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque, quam sollicitudin egestas accumsan, mi diam auctor sapien, eget dictum turpis augue quis nisi. Nam ut lacus mollis, gravida elit eget, pharetra lacus. Ut at tristique felis. Aenean vestibulum vel ex eu luctus. Nullam vel neque suscipit, hendrerit dolor ut, ullamcorper urna. Nam nec dui et augue finibus egestas non id nisi. Duis nec purus metus. Vivamus tempor diam enim, in dignissim dolor pretium viverra. Vivamus metus turpis, suscipit eget cursus tempor, euismod eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque posuere leo vitae nisl auctor vestibulum. Nullam id dui et urna ultricies accumsan. Vestibulum ut consectetur lacus, eu varius turpis. Vivamus vel ullamcorper metus.
+
+</p></div>
+
+<script>
+
+			 // On document ready, initialize noUiSlider.
+			$(function(){
+
+				$('.slider').noUiSlider({
+					start: 5,
+
+						range: {
+        'min': 0,
+        '10%': 1,
+        '20%': 2,
+        '30%': 3,
+	'40%': 4,	// Nope, 40 is no fun.
+        '50%': 5,
+        '60%': 6,
+        '70%': 7,
+	'80%': 8,	// I never liked 80.
+        '90%': 9,
+        'max': 10
+    },
+					snap: true
+				});
+
+			});
+
+		</script>
+
+		<script>
+
+			$(".slider").on("change", changeFont);
+			$(".slider").on("slide", function() {
+				var font = fonts[parseInt($(".slider").val())];
+				$("h3").html(font);
+				
+			});
+
+function changeFont() {
+	var font = fonts[parseInt($(".slider").val())];
+	$("p").css("font-family", font);
+
+}
+
+		</script>
+        <script>
+		$("img").on("click", muutaVariTeema);
+		
+		function muutaVariTeema() {
+			var kuva = this;
+			var colorThief = new ColorThief();
+			var vari = colorThief.getPalette(kuva, 5);
+			$("body").css("background-color", "rgb("+vari[0]+")");
+			$("div").css("background-color", "rgb("+vari[1]+")");
+			$("p").css("color", "rgb("+vari[3]+")");
+		}
+		
+		</script>
+
+
+</body>
+
+</html>
